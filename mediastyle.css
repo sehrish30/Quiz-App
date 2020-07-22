@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1024px) {
+    div.landing-inputs-wrapper {
+        width: 700px;
+        height: 250px;
+    }
+
+    div.landing-inputs-wrapper input {
+        width: 500px;
+        font-size: 1.3rem;
+    }
+
+    #new-question-text {
+        font-size: 1.6rem;
+        width: 70%;
+        height: 120px
+    }
+
+    div.forms-wrapper input[type="text"] {
+        width: 330px;
+        height: 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    div.inserted-questions-wrapper p {
+        font-size: 2rem;
+    }
+
+    div.results-list-container p span {
+        font-size: 1.1rem;
+    }
+
+    div.inserted-questions-wrapper p button {
+        margin-top: 2px;
+        font-size: 1.5rem;
+        padding: 4px 12px;
+    }
+
+    #question-insert-btn {
+        width: 140px;
+    }
+
+    div.results-list-container p {
+        height: 4rem;
+    }
+
+    div.results-list-container p {
+        font-size: 2rem;
+    }
+
+    div.inserted-questions-wrapper p span {
+        font-size: 1.7rem;
+    }
+
+    div.header h2 {
+        font-size: 2.2rem;
+    }
+
+    h2#asked-question-text {
+        font-size: 2rem;
+    }
+
+    div.progressBar {
+        width: 250px;
+    }
+
+    div#instant-answer-wrapper p {
+        font-size: 2rem;
+    }
+
+    div.quiz-options-wrapper div p {
+        font-size: 1.6rem;
+    }
+
+    div.quiz-options-wrapper div {
+        height: 4rem;
+    }
+
+    div.quiz-options-wrapper div span::before {
+        bottom: 23px;
+    }
+
+    h2#final-score-text {
+        font-size: 2.1rem;
+    }
+
+    button#final-logout-btn {
+        font-size: 1.3rem;
+        padding: 15px;
+    }
+
+    div#instant-answer-wrapper button {
+        padding: 8px 15px;
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div.landing-inputs-wrapper input {
+        font-size: 1.8rem;
+    }
+}
